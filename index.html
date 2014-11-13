@@ -1,27 +1,41 @@
 <html>
 <head>
 	<title>Training Module v 1.0</title>
+	<link rel="shortcut icon" href="img/badge-icon.jpg">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+
 </head>
 <body>
 	
 	<div class="cont">
-		<img class="menu" src="img/settings.jpg">
-		<img id="mlk" class="mid-content" src="http://lhwmp.files.wordpress.com/2013/08/kingcountyfacelogo2.png">
-		<div>
-			<h2 id="title" class="mid-content">King County Police Department</h2>
-			<h2 id="title" class ="mid-content">Risk Management</h2>
+		<div class="col-md-6">
+			<img id="mlk" class="mid-content" src="http://lhwmp.files.wordpress.com/2013/08/kingcountyfacelogo2.png">
 		</div>
-		<button id="view-change" class="mid-content">Begin</button>
+		<div class="col-md-4">
+			<h2 id="title" class="mid-content">King County Police Department 
+			<h3 class="mid-content">Risk Management Learning Module</h3>
+		</div>
+		<p onclick=scrollToBottom() id="view-change" class="mid-content">Get Started 
+		<img id="down-arrow" src="img/down.png">
+		</p>
 	</div> <!--end of container-->
 
 	<div class="module-cont">
-		<p>This is in the module</p>
+		<img class="person-icon" src="img/employee.png">
+		<img class="person-icon" src="img/employee.png">
+		<img class="person-icon" src="img/employee.png">
+		<img id="desktop-icon" src="img/desktop-computer.png">
+		<img id="server-icon" src="img/server-rack.png">
 	</div> <!--end of module container-->
 </body>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script>
+function scrollToBottom() {
+	$("html, body").animate({ scrollTop: $(document).height() }, 1500);
+}
+</script>
 </html>

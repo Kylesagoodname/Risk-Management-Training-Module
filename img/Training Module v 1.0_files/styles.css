@@ -5,14 +5,14 @@ body {
 	background-color: white;
 }
 
-.container {
+.cont {
 	background-image: url("../img/texture2.jpg");
 	height: 100%;
 	margin: 0 auto;
 	position: relative;	
 }
 
-.module-container {
+.module-cont{
 	height: 100%;
 }
 .menu {
@@ -21,9 +21,9 @@ body {
 }
 
 .mid-content {
-	font-family: 'Helvetica';
-	font-weight: 100;
-
+	font-family: 'Helvetica Neue';
+	font-weight: 400;
+	
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -31,8 +31,13 @@ body {
 }
 
 #mlk {
-	width: 200%;
-	height: 200%;
+	width: 400px;
+	height: 350px;
+
+}
+
+#title {
+	display: inline-block;
 }
 #view-change {
 	position: absolute;

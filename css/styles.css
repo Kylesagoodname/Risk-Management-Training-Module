@@ -1,0 +1,45 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+.cont {
+	background-image: url("../img/texture2.jpg");
+	height: 100%;
+	margin: 0 auto;
+	position: relative;	
+}
+
+.module-cont{
+	height: 100%;
+}
+.menu {
+	width: 2%;
+	padding: 5px;
+}
+
+.mid-content {
+	font-family: 'Helvetica';
+	font-weight: 100;
+
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center
+}
+
+#mlk {
+	width: 20%;
+	height: 80%;
+}
+
+#title {
+	display: inline-block;
+}
+#view-change {
+	position: absolute;
+	bottom: 20px;
+	margin-left: 48%
+}

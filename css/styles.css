@@ -13,8 +13,17 @@ body {
 }
 
 .module-cont{
+
 	height: 100%;
-	background-color: white;
+	background-image: url("../img/digital-background.jpg");
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
+	color: white;
+
+}
+.threat {
+	width: 20%;
+	text-align: center;
 }
 .menu {
 	width: 2%;
@@ -31,9 +40,14 @@ body {
 	text-align: center
 }
 
-.person-icon {
+#person-icon {
 	height: 80px;
 	width: 80px;
+}
+
+#person-icon:hover {
+	height:110px;
+	width: 110px;
 }
 
 #mlk {
@@ -43,8 +57,8 @@ body {
 }
 
 #down-arrow {
-	width: 20px;
-	height: 20px;
+	width: 17px;
+	height: 17px;
 }
 
 #title {
@@ -59,12 +73,32 @@ body {
 	margin-left: 48%
 }
 
+#police-icon {
+	height: 80px;
+	width: 80px;
+}
+
+#police-icon:hover {
+	height: 110px;
+	width: 110px;
+}
+
 #desktop-icon {
 	height: 150px;
 	width: 150px;
+}
+
+#desktop-icon:hover {
+	height: 180px;
+	width: 180px;
 }
 
 #server-icon {
 	height: 200px;
 	width: 200px;
 }
+#server-icon:hover {
+	height: 230px;
+	width: 230px;
+}
+

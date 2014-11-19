@@ -1,16 +1,19 @@
 <html>
 <head>
 	<title>Training Module v 1.0</title>
-	<!--pure css stylesheet link-->
-	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
 	<link rel="shortcut icon" href="img/mlk-icon.png">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!--jquery-->
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<!--underscore.js-->
+	<script type="text/javascript" src="js/underscore-min.js"></script>
+	<!--backbone.js-->
+	<script type="text/javascript" src="js/backbone-min.js"></script>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-<script src="js/jquery-2.1.1.js"></script>
-
+	<script src="js/router.js"></script>
 </head>
 <body>
 	
@@ -32,49 +35,56 @@
 		<div id="personnel" class="col-md-4">
 			<h1 class="mod-header">Personnel</h1>
 			<div class="asset">
-				<img class="asset-icon" src="img/headset.png">
+				<a href="dispatchers.html"><img class="asset-icon" src="img/headset.png"></a>
 				<p>Dispatchers</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/officer.png">
+				<a href="police.html"><img class="asset-icon" src="img/officer.png"></a>
 				<p>Police Officers</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/admin.png">
+				<a href="admins.html"><img class="asset-icon" src="img/admin.png"></a>
 				<p>Database Administrators</p>
 			</div>
 		</div>
 		<div id="hardware" class="col-md-4">
 			<h1 class="mod-header">Hardware</h1>
 			<div class="asset">>
-				<img class="asset-icon" src="img/desktop-computer.png">
+				<a href="computers.html"><img class="asset-icon" src="img/desktop-computer.png"></a>
 				<p>Computers</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/radio.png">
+				<a href="radio.html"><img class="asset-icon" src="img/radio.png"></a>
 				<p>Radio</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/server-rack.png">
+				<a href="servers.html"><img class="asset-icon" src="img/server-rack.png"></a>
 				<p>RMS Servers</p>
 			</div>
 		</div>
 		<div id="miscellaneous" class="col-md-4">
 		<h1 class="mod-header">Miscellaneous</h1>
 			<div class="asset">>
-				<img class="asset-icon" src="img/network-icon.png">
+				<a href="network.html"><img class="asset-icon" src="img/network-icon.png"></a>
 				<p>Network Connectivity</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/electricity.png">
+				<a href="electricity.html"><img class="asset-icon" src="img/electricity.png"></a>
 				<p>Electricity</p>
 			</div>
 			<div class="asset">>
-				<img class="asset-icon" src="img/safety.png">
+				<a href="safety.html"><img class="asset-icon" src="img/safety.png"></a>
 				<p>Physical Safety</p>
 			</div>
 		</div>
 	</div> <!--end of module container-->
+
+
+	 
+
+
+	
+
 </body>
 <script>
 function scrollToBottom() {

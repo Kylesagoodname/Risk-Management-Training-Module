@@ -21,9 +21,14 @@ body {
 	color: white;
 }
 
+.quiz-cont {
+	height: 100%;
+	font-family: 'Helvetica Neue';
+	font-weight: 200;
+}
 .mod-header {
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 .asset {
 		text-align: center;
@@ -78,9 +83,21 @@ body {
 	margin-left: 48%
 }
 
+#quiz-change {
+	position: absolute;
+	bottom: -98%;
+	margin-left: 47%;
+
+}
+
+#personnel, #hardware, #miscellaneous {
+	margin-top: 5%;
+}
+
 .asset-icon {
 	height: 80px;
 	width: 80px;
+	padding: 10px;
 }
 .asset-icon:hover {
 	height: 100px;

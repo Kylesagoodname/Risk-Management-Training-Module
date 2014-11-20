@@ -16,7 +16,8 @@
 }
 
 #main {
-	margin-top: 5%;
+	margin-top: 3%;
+	margin-bottom: 25%;
 	margin-left: 30%;
 	border-left: thin solid #f5f5f5;
 }
@@ -27,4 +28,9 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+#dispatch-pic {
+	margin-top: 20px;
+	
 }

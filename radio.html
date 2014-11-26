@@ -2,9 +2,8 @@
 <head>
 	<title>Training Module v 1.0</title>
 	<link rel="shortcut icon" href="img/mlk-icon.png">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-			<!--jquery-->
+	<!--jquery-->
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<!--underscore.js-->
 	<script type="text/javascript" src="js/underscore-min.js"></script>
@@ -14,8 +13,57 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/router.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/asset-styles.css">
+
 </head>
 <body>
+
+<div id="navbar" class="col-md-2">
+	<div id="nav-header">
+		<b><h4>Learn</h4></b>
+	</div>
+	<a href="#description-landing"><p>Description</p></a>
+	<a href="#threat-landing"><p>Threats</p></a>
+	<a href="#mitigation-landing"><p>Mitigations</p></a>
+</div>
+
+
+
+<div id="main" class="col-md-6">
+	<h1 id="description-landing">Radio</h1>
+	<p>Radios are used in a number of places within the King County Police Department. Radios are used to communicate between officers and dispatchers to receive important information about crimes in progress and logistical information. Officers will often carry a portable radio with them so that they may communicate when they are away from their police vehicles and also have a radio system hooked up within their vehicle.</p>
+
+	<p>Radios provide a lot of value to the police officers and dispatchers that use them, but also add a great deal of risk to the equation due to the fact that you cannot see who is on the other side. There have also been issues with radio frequencies being listened in on.</p>
+
+	<p>Keeping the radio communications between officers and dispatchers private is one of the main goals of anyone managing risks within the police department, so controls must be in put in place to stop attacks against it.</p>
+	<img id="police-radio" src="img/police-radio.jpeg" style="width: 90%"><p>
+
+
+	<br>
+	<h1 id="threat-landing">Threats</h1>
+	<h3>Man in the Middle</h3>
+	<p>The radio signals emitted by police and dispatcher radios are susceptible to be intercepted by attackers. This type of attack is often called snooping or a man in the middle attack. Basically it means that the messages being sent to and from officers are being heard by another person.</p>
+
+	<p>This type of vulnerability could be a major problem in the police department; mainly because the information being sent across radio frequencies is so important. Information that is leaked over radio could potentially bring harm to the officers or even the citizens that they are trying to protect. </p>
+	<h3>Spoofing</h3>
+	<p>A spoofing attack is when someone pretends to be someone else in order to obtain certain information or gain access to information that they are unauthorized to view.</p>
+	<p>In the context of radio communications, a spoofing attack would involve pretending to be either an officer or a dispatcher on the other side of the radio call. In this situation, information disclosure is a possibility if the victim is unaware that a malicious individual is on the other side of the call.</p>
+	<br>
+
+	<h1 id="mitigation-landing">Mitigations</h1>
+	<h3>Secure Voice</h3>
+	<p>One solution to combat people listening in on radio calls is to use an encrypted radio transmission. Radio encryption provides another layer of security to help combat man in the middle attacks. If an attacker were really motivated to listen in on police radio transmissions, they would have to decrypt or unscramble to transmission in order to comprehend it.</p>
+
+	<h3>Authentication</h3>
+	<p>Having a good authentication system to identify who is talking over the radio can help prevent spoofing. For example, a police officer can state their employee id or code name before transmitting a request.</p>
+
+	<p>Commands that require extra authority would have to require two or more authentication checks to make sure that the person sending the request is in fact a police officer. This will help prevent people from having too much power if they manage to get a hold of a police officer's radio.</p>
+
+
+</div> <!--end of main content-->
+
 
 </body>
 </html>

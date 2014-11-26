@@ -2,9 +2,8 @@
 <head>
 	<title>Training Module v 1.0</title>
 	<link rel="shortcut icon" href="img/mlk-icon.png">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-			<!--jquery-->
+	<!--jquery-->
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
 	<!--underscore.js-->
 	<script type="text/javascript" src="js/underscore-min.js"></script>
@@ -14,8 +13,56 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/router.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/asset-styles.css">
+
 </head>
 <body>
+
+<div id="navbar" class="col-md-2">
+	<div id="nav-header">
+		<b><h4>Learn</h4></b>
+	</div>
+	<a href="#description-landing"><p>Description</p></a>
+	<a href="#threat-landing"><p>Threats</p></a>
+	<a href="#mitigation-landing"><p>Mitigations</p></a>
+</div>
+
+
+
+<div id="main" class="col-md-6">
+	<h1 id="description-landing">Network</h1>
+	<p>Within the King County Police Department, computers and servers must be able to communicate with each other and computers outside of their network. In order to make this happen, computer networking equipment must be set up and maintained. Network connectivity represents a major utility to the King County Police Department, because of the computer reliant functions that take place within the department from day to day.</p>
+
+	<p>Without the network connectivity that serves the King County Police Department, several programs like the computer aided dispatch and the records management system would be unable to run. Maintaining this network connectivity allows the police department to continue functioning smoothly.</p>
+
+	<img id="networking-gear.jpg" src="img/networking-gear.jpg" style="width: 90%"><p>
+
+
+	<br>
+	<h1 id="threat-landing">Threats</h1>
+	<h3>Broken Cable</h3>
+	<p>The majority of networking issues tend to arise in layer 1 of the OSI model or the "physical layer". These issues are often the result of someone tripping on a cable and causing it disconnect or networking gear being switched off.</p>
+
+	<p>Even though these problems may seem trivial, they can have a large impact on a small business or organization. The King County Police Department relies heavily on their network connectivity, so a disconnected cable can be a crippling blow to the department's productivity.</p>
+
+	<h3>Sniffer Attack</h3>
+	<p>A sniffer attack involves an adversary using a network protocol analyzer to intercept and read packets being sent on your computer network. A person who uses this type of tool can potentially read passwords and web requests that get sent over the network and use them to log in as other users.</p>
+
+	<br>
+
+	<h1 id="mitigation-landing">Mitigations</h1>
+	<h3>Networking Equipment Management</h3>
+	<p>An easy way to lower the risk of a cable being disconnected or a router being switched off is to try to restrict access to these devices to only the administrators who need to use them. Keeping routers and switches off of the ground and cables running behind walls will help manage some of the complexity involved with maintaining a physical network.</p>
+
+	<h3>Use SSL Certified Websites</h3>
+	<p>To prevent attackers from sitting on your network and analyzing your web traffic, only enter private information into websites that are SSL protected. An easy way to see if a website is SSL protected is by going into the address bar and checking for the green lock icon preceeding the web address.</p>
+
+	<p>If the website is not SSL protected, any traffic sent to and from the website can be read by someone with a protocol analyzer.</p>
+	
+</div> <!--end of main content-->
+
 
 </body>
 </html>

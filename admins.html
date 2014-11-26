@@ -2,7 +2,7 @@
 <head>
 	<title>Training Module v 1.0</title>
 	<link rel="shortcut icon" href="img/mlk-icon.png">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
 
 			<!--jquery-->
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
@@ -13,8 +13,56 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="js/router.js"></script></head>
+	<script src="js/router.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/asset-styles.css">
+
+</head>
 <body>
+
+
+
+<div id="navbar" class="col-md-2">
+	<div id="nav-header">
+		<b><h4>Learn</h4></b>
+	</div>
+	<a href="#description-landing"><p>Description</p></a>
+	<a href="#threat-landing"><p>Threats</p></a>
+	<a href="#mitigation-landing"><p>Mitigations</p></a>
+</div>
+
+<div id="main" class="col-md-6">
+	<h1 id="description-landing">Administrators</h1>
+	<p>King County administrators oversee the maintenance of the police department's internal assets such as RMS server management and networks. Admininistrators' duties can range from setting user permissions on computer networks, creating and deleting users, updating/retrieving information from databases, or even managing human capital. </p>
+
+	<p>In general administrators hold the most power out of the employees working at King County Police Department, and are often the end target for many social engineering and technical attacks. Therefore, it is important that there is a wealth of controls in place to help reduce the likelihood that they are attacked.</p>
+
+	<img id="server-admin-pic" src="img/server-admin.jpg" style="width: 90%"><p>
+	<br>
+
+	<h1 id="threat-landing">Threats</h1>
+	<h3>Elevation of Privilege</h3>
+	<p>When a user is able to expand their set of privileges beyond what was intended, it is an example of an elevation of privilege attack. For example, a user that was originally intended to view content gains the ability to view and modify content (read and write).</p>
+
+	<p>Having a user capable of expanding their set of authorized privileges is a large threat for admins because users could potentially have the same power as an administrator. An attacker that can write changes to the King County website or make changes to the database could do a large amount of damage to the department. </p>
+
+	<h3>Brute Force</h3>
+	<p>A brute force attack usually involves using computer software to generate possible passwords for a certain user account and enter them into a login field. The attack can generate thousands of potential passwords per minute and submit them as quickly as they are generated.</p>
+	<p>An attacker can conduct a brute force attack to gain administrative rights on King County Police Department's website, databases, etc. Preventing this from happening is important because of the impact that an administrator can have on their systems.</p>
+	<br>
+	<h1 id="mitigation-landing">Mitigations</h1>
+	<h3>Perform Background Checks</h3>
+	<p>Due to the technical experience and internal knowledge needed to elevate to administrator status, elevation of privilege attack are commonly performed by employees of the hacked organization.Having background checks for all of your employees can help reduce the likelihood that new hires will be interested in conducting discreet elevation of privilege attacks against the police department.</p>
+
+	<h3>Password Controls</h3>
+	<p>There are several password controls that can be put in place to protect administrators from being brute forced. One password control is having a login timeout after several incorrect attempts. Many web and mobile applications do this already in some form or another. Utilizing a progressively longer timeout can reduce the risk of a brute force attack even more. You can see this type of feature in place on iPhone lock screens.</p>
+
+
+</div> <!--end of main content-->
+
+
+
 
 </body>
 </html>

@@ -2,7 +2,6 @@
 <head>
 	<title>Training Module v 1.0</title>
 	<link rel="shortcut icon" href="img/mlk-icon.png">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 
 			<!--jquery-->
 	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
@@ -14,8 +13,54 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="js/router.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/asset-styles.css">
+
 </head>
 <body>
+
+<div id="navbar" class="col-md-2">
+	<div id="nav-header">
+		<b><h4>Learn</h4></b>
+	</div>
+	<a href="#description-landing"><p>Description</p></a>
+	<a href="#threat-landing"><p>Threats</p></a>
+	<a href="#mitigation-landing"><p>Mitigations</p></a>
+</div>
+
+
+
+<div id="main" class="col-md-6">
+	<h1 id="description-landing">RMS Servers</h1>
+	<p>The record management system (RMS) performs a wide range of functions for the King County Police Department such as processing case documents, housing criminal records, registering sex offenders and more. In order to run the RMS and the computers that interact with the system, servers must be active.</p>
+
+	<p>Since there are many ways to attack the servers, they present one of the biggest security risks for the King County Police Department. Keeping the servers active is also essential because the RMS serves such a large portion of the police department's functions.</p>
+
+	<img id="server-rack-pics.jpg" src="img/server-rack-pics.jpg" style="width: 90%"><p>
+
+
+	<br>
+	<h1 id="threat-landing">Threats</h1>
+	<h3>Unused Services and Open Ports</h3>
+	<p>When a server administrator sets up a web server, there are a number of default applications that are run on the server. Some of these services can cause extra web traffic on your server and cause it to bottleneck. Other applications may leave a hole for attackers to get in and cause havok. </p>
+
+	<h3>DOS Attacks</h3>
+	<p>A denial of service (DOS) attack occurs when a server is intentionally overloaded with web requests to slow down traffic. Denial of service attacks are generally carried out to prevent the server from servicing customers/users.</p>
+
+	<p>In the context of the King County Police Department, servers provide information to employees about criminal records and crime reports, so keeping them active is absolutely vital to the operations of the police department. </p>
+	<br>
+
+	<h1 id="mitigation-landing">Mitigations</h1>
+	<h3>Close Unused Ports</h3>
+	<p>One solution to mitigating the risk presented by open ports and unused services is to close the ones that are not needed. Keeping unneeded default services open will only open avenues for attackers to breach the servers. Instead, server admins should try to keep only the vital services and ports open and close all others. </p>
+
+	<h3>Firewalls</h3>
+	<p>To prevent denial of service attacks originating from a single computer, a web application firewall is a viable option. A web application firewall will prevent a denial of service attack by inspecting HTTP requests and checking the packets against a set of rules to accept or deny the packets.</p>
+	<p>Having some type of enterprise firewall should help filter out these smaller denial of service attacks.</p>
+
+</div> <!--end of main content-->
+
 
 </body>
 </html>

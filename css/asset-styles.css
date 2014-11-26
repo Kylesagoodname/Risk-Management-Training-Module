@@ -28,9 +28,17 @@ a {
 
 a:hover {
 	text-decoration: none;
+	color: green;
+	font-weight: bold;
 }
 
 #dispatch-pic {
 	margin-top: 20px;
 	
+}
+
+#description-landing, #threat-landing, #mitigation-landing {
+	border: thin solid gray;
+	background-color: #f5f5f5;
+	text-indent: 5px;
 }

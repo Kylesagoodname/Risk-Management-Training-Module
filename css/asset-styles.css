@@ -8,6 +8,13 @@
 	margin-left: 10%;
 }
 
+#fixed-nav {
+	width: 100%;
+	height: 5%;
+	background-color: #23221f;
+	position: fixed;
+	z-index: 1;
+}
 #nav-header {
 	margin-top: 10px;	
 	border-bottom: thin solid gray;
@@ -28,7 +35,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: green;
+	color: orange;
 	font-weight: bold;
 }
 
@@ -41,4 +48,12 @@ a:hover {
 	border: thin solid gray;
 	background-color: #f5f5f5;
 	text-indent: 5px;
+}
+
+.navigation {
+	display: inline; 
+	color: white;
+}
+
+#dropdownMenu1 {
 }
